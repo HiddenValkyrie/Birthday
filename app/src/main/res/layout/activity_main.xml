@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/cake"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:text="Happy Birthday Kieryn"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:padding="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/attrib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="6sp"
+        android:textColor="#17202A"
+        android:text="By Joey Gannon from Pittsburgh, PA - Candles, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=3204564"
+
+        />
+
+    <TextView
+        android:id="@+id/love"
+        android:text="Love, Aunt Cheri"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:paddingRight="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/attrib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
