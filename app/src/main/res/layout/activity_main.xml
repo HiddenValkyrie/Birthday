@@ -11,7 +11,7 @@
         />
 
     <TextView
-        android:text="Happy Birthday Kieryn"
+        android:text="Happy Birthday Corte"
         android:textColor="@android:color/white"
         android:textSize="28sp"
         android:padding="16dp"
@@ -34,7 +34,7 @@
 
     <TextView
         android:id="@+id/love"
-        android:text="Love, Aunt Cheri"
+        android:text="Love, Cheri"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:paddingRight="16sp"
